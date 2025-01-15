@@ -1,0 +1,270 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar styling */
+.Navbar {
+  background-color: #007bff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Navbar .nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.Navbar .nav li {
+  display: inline-block;
+}
+
+.Navbar .nav li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+.Navbar .nav li a:hover,
+.Navbar .nav li a.active {
+  background-color: #0056b3;
+  color: #f1f1f1;
+}
+/* Footer styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Main content wrapper to push footer down */
+main {
+  flex: 1;
+}
+
+/* Footer styling */
+footer {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 14px;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+}
+footer p:hover{text-decoration: underline;}
+footer p{
+  margin: 0;
+  font-size: 16px;
+}
+/* Table container */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Table header */
+thead tr {
+  background-color: #007bff;
+  color: white;
+  text-align: left;
+}
+
+thead th {
+  padding: 12px;
+  font-size: 16px;
+}
+
+/* Table body */
+tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody td {
+  padding: 12px;
+  font-size: 14px;
+}
+
+/* Hover effect */
+tbody tr:hover {
+  background-color: #cbc7c7;
+}
+
+/* Action buttons */
+.action_btn {
+  margin-right: 8px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+.action_btn:first-child {
+  background-color: #28a745;
+}
+
+.action_btn:first-child:hover {
+  background-color: #218838;
+}
+
+.action_btn:last-child {
+  background-color: #dc3545;
+}
+
+.action_btn:last-child:hover {
+  background-color: #c82333;
+}
+
+/* Add Product button */
+.add_btn {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.add_btn:hover {
+  background-color: #0056b3;
+}
+/* Home page */
+.home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 100px); 
+  text-align: center;
+  background-color: #f9f9f9;
+  color:#333;
+}
+.services{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 100px); 
+  text-align: center;
+  background-color: #f9f9f9;
+  color: #333;
+}
+.notfound{ display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 100px); 
+  text-align: center;
+  background-color: #f9f9f9;
+  color: #333;}
+  .notfound h3{  font-size: 3em;}
+ .notfound:hover{
+    text-decoration: underline;
+    color: #007bff;
+  }
+  /* creatPost stylling */
+form {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+ h2 {
+  text-align: center;
+  color: black;
+  padding: 40px;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+ h2:hover{color: #0056b3;}
+/* Form elements */
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input[type="text"],
+textarea,
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+}
+
+input[type="text"]:focus,
+textarea:focus,
+input[type="number"]:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Submit button */
+.submit_btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.submit_btn:hover {
+  background-color: #0056b3;
+}
+
+/* Error message */
+h3 {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mohmmad-murtaza/react-curd-app.git/static/css/main.fb4b3180.css",
+    "main.js": "/mohmmad-murtaza/react-curd-app.git/static/js/main.fd3551b8.js",
+    "index.html": "/mohmmad-murtaza/react-curd-app.git/index.html",
+    "main.fb4b3180.css.map": "/mohmmad-murtaza/react-curd-app.git/static/css/main.fb4b3180.css.map",
+    "main.fd3551b8.js.map": "/mohmmad-murtaza/react-curd-app.git/static/js/main.fd3551b8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb4b3180.css",
+    "static/js/main.fd3551b8.js"
+  ]
+}

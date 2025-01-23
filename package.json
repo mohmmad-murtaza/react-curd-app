@@ -37,7 +37,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://github.com/mohmmad-murtaza/react-curd-app.git",
+  "homepage": "https://mohmmad-murtaza.github.io/mohmmad-murtaza/react-curd-app.git",
+
   "devDependencies": {
     "gh-pages": "^6.3.0"
   }
